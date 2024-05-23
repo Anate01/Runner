@@ -6,9 +6,18 @@
             "id": "3d299883-5fd1-4b02-9a03-ead27db14b44",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "MoveLeft",
                     "type": "Button",
                     "id": "a5bebbab-3c26-49f6-b3a2-0ccbbd1ca1cd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveRight",
+                    "type": "Button",
+                    "id": "7751237a-a660-4205-b525-10ce8687a708",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -19,11 +28,22 @@
                 {
                     "name": "",
                     "id": "d5d769b8-27be-4760-abae-3b5ba5ddaa18",
-                    "path": "",
+                    "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "MoveLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0a57cb1f-6fea-41f2-be5f-e7ac27e29267",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveRight",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
